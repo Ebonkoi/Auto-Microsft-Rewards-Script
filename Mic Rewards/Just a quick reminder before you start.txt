@@ -1,0 +1,4 @@
+To use the script for Android, you need to have "USB Debugging" enabled in developer mode. And you may need to allow debugging a few times when connecting your device to your computer.
+If ADB is already in your PATH, just disconnect and reconnect your device to your PC until an permission popup appears.
+
+A more advanced tutorial is coming soon, check out GitHub from time to time!
