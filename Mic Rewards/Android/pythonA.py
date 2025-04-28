@@ -12,7 +12,7 @@ def veriDevi():
     return "device" in retorno
 
 # Function answer if an device is connected
-if not veriDev():
+if not veriDevi():
     print("No Android device identified. Make sure ADB is set up, the device is connected, and supports 'USB Debugging'.")
     exit()
 
