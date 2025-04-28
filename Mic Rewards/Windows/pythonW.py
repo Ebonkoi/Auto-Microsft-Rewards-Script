@@ -41,12 +41,12 @@ print("Microsoft Edge opened!")
 time.sleep(5)
 
 # Execute 'start' function 30 times
-for i in range(1):
+for i in range(30):
      start()
 
 # Close all tabs
 print("Finishing... Closing tabs...")
-for _ in range(1):
+for _ in range(30):
     pyautogui.hotkey("ctrl", "w")
     time.sleep(0.1)
 
